@@ -36,7 +36,7 @@ h1 {
 
 .input-section button {
     padding: 10px 20px;
-    background: rgb(2, 165, 2);
+    background: #333;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -45,7 +45,9 @@ h1 {
 }
 
 .input-section button:hover {
-    background: #29e13c;
+    background: #fff;
+    color: #333;
+    border: 1px solid #333;
 }
 
 .sample-text {
