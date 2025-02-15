@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pattern Extractor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Data Pattern Extractor</h1>
+        
+        <div class="input-section">
+            <textarea id="inputText" placeholder="Paste your text here to analyze patterns like emails, phone numbers, URLs, and credit card numbers..."></textarea>
+            <button onclick="analyzeText()">Analyze Data</button>
+            <div class="sample-text">
+                Try this sample: user@example.com 123.456.7890 visit https://www.example.com 1234-5678-9012-3456
+            </div>
+        </div>
+        
+        <div id="results" class="results-section"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
